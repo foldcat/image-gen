@@ -61,7 +61,7 @@
   []
   (q/frame-rate 0)
   (apply q/background (hex->rgb "#161616"))
-  (dotimes [_ 20]
+  (dotimes [_ 30]
     (draw)))
 
 
@@ -73,7 +73,7 @@
     :settings #(q/smooth 2)
     :setup setup
     :draw draw
-    :size [854 480]))
+    :size [900 480]))
 
 
 (defn -main
